@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    color: green;
+}
+img  {margin-left: 100px;
+    margin-top: 100px;
+    border: 2px solid red;
+    padding: 50px;
+    background: blue;
+    border-radius: 50%;
+    height: 300;
+}
+a.action-button {
+    background: #a2cf8e;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    }
+.news h2 {
+    background: #b7ececcc;
+    font-family: Arial;
+    width: 400px;
+    
+    color: white;
+    text-decoration: underline;
+}
+p{
+    color: green;
+}
+.first .news p {
+    color: red;
+}
+.second .news span {
+    color: blue;
+}
+p{
+    color: orange;
+}
+nav.list-of-animals {
+    margin-left: 270;
+    width: 50%;
+    padding-left: 20;
+    padding-right: 20;
+    background: gray;}
+.news-1, .news-2 {
+    float: left;
+    border: 1px solid;
+}
+.news{width: 50%;
+display: inline-block;}

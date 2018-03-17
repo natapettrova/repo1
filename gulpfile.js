@@ -9,7 +9,7 @@ gulp.task('default',['webserver'], function () {
 
 //Задача 'build':
 gulp.task('build', function () {
-    return gulp.src('site/*.html')
+    return gulp.src('site/**/*')
            .pipe(gulp.dest('../public'));
 });
 
