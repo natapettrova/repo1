@@ -1,0 +1,19 @@
+@media(max-width:760px) {
+    .box-group .col-3 .box {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .col-3 {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:999px) {
+    .col-3 {
+        width: 50%;
+    }
+ .box-group .col-3 .box {
+        margin: auto;
+     margin-bottom: 15px;
+    }
+    }
