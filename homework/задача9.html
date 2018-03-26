@@ -1,0 +1,39 @@
+<html>
+<head></head>
+<body>
+<p>Начало документа ...<p>
+	<script type="text/javascript">
+
+	 var x = prompt("Введите единицу измерения  1-дециметр; 2- километр; 3 - метр; 4 - миллиметр; 5 - сантиметр");
+	 var y = prompt("Введите длину отрезка");
+	 x=parseInt(x);
+	 y=parseFloat(y);
+	 switch(x){
+	 case 1: 
+		y= y/10;
+		alert("Длина в местрах " + y.toFixed(2));
+		break;
+	case 2:
+		y=y*1000;	
+		alert("Длина в местрах " + y.toFixed(2));
+		break;
+	 case 3:
+		alert("Длина в местрах " + y.toFixed(2));
+		break;
+	 case 4:
+		y=y/1000;
+		alert("Длина в местрах " + y.toFixed(2));
+		break;
+	 case 5:
+		y=y/100;
+		alert("Длина в местрах " + y.toFixed(2));
+		break;
+	default:
+		alert("Нет такого варианта единиц измерения");
+	 }
+	 
+	</script>
+<p>...Конец документа<p>
+</body>
+<footer></footer>
+</html>
