@@ -1,0 +1,28 @@
+<html>
+<head></head>
+<body>
+<script>
+	let arr = [1,1];
+	let q = prompt('введите количество ');
+	
+	function days(x){
+			if(q%10 == 1){
+				return "День";
+			} else if((q%10 > 1)&&(q%10 <= 4)){
+				return "Дня";
+			} else if((q%10 > 4)&&(q%10 <= 9)||(q%10 == 0)){
+				return "Дней";
+			} else {
+				return "Неверные данные";
+			};
+	};
+	alert(days(q));
+
+	
+	
+	
+</script>
+</body>
+</html>
+
+
