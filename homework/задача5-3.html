@@ -2,17 +2,22 @@
 <head></head>
 <body>
 <script>
-	let arr = [1,1];
-	let q = prompt('введите количество символов');
 	
-	for (let i=2; i<q; i++){
-		arr.push(arr[i-1]+arr[i-2]);
-		
-			}
-		
-		
-	;
-	alert(arr);
+	let a =prompt('введите количество символов');
+	let arr = [1,1];
+	a= parseInt(a);
+	function fib(q){
+		if(q===1){arr.pop()
+		}else {
+			for (let i=2; i<q; i++){
+				arr.push(arr[i-1]+arr[i-2]);
+				
+					}
+				}
+		alert(arr);	
+		;
+	}
+	fib(a);
 
 	
 	

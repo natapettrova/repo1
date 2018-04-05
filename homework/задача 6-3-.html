@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	//Пример Замыкание запуталась в задаче
+	// была попытка запоминать массив после вывода но в таком случае каждый раз при запуске массив обнуляется
+	// исправлю к следующему занятию
+	var arr=[0];
+	function outName(){
+		var a;
+		
+		var result=false;
+		if (arr.length===100){arr=[0]};
+		alert(rand());
+		
+		
+		
+		function rand(){
+			while (!result) { 
+			a = Math.floor(Math.random() * 101);
+			for (var i = 0; i < 5; i++) {
+				if (arr[i] === a) {result = false;
+				} else{
+					arr.concat(a);
+					result = true;
+					return a;
+				};
+			   
+			}
+			
+			
+		};
+		};
+		};	
+	
+	outName();
+</script>
+</body>
+<footer></footer>
+</html>

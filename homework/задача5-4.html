@@ -2,15 +2,15 @@
 <head></head>
 <body>
 <script>
-	let arr = [1,1];
+	
 	let q = prompt('введите количество ');
 	
 	function days(x){
-			if(q%10 == 1){
+			if(x%10 == 1){
 				return "День";
-			} else if((q%10 > 1)&&(q%10 <= 4)){
+			} else if((x%10 > 1)&&(x%10 <= 4)){
 				return "Дня";
-			} else if((q%10 > 4)&&(q%10 <= 9)||(q%10 == 0)){
+			} else if((x%10 > 4)&&(x%10 <= 9)||(x%10 == 0)){
 				return "Дней";
 			} else {
 				return "Неверные данные";

@@ -1,0 +1,26 @@
+<html>
+<head></head>
+<body>
+	<script type="text/javascript">
+		var student = {
+		firstName:"Petrova",
+		lastName:"Natalia",
+		age:29,
+		interests:['programming','knitting','cooking'],
+		university:"ITMO",
+		spec:"web development"
+		};
+		
+		function infostudent(s){
+			for (var i in s){			
+				 console.log('свойство '+i+', значение '+s[i]);
+			};
+		};
+		
+	infostudent(student);
+		
+	</script>
+
+</body>
+<footer></footer>
+</html>

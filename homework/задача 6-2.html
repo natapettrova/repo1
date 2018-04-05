@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+	
+	let n = prompt('введите число ')
+	function factRec(n){
+		if( n === 1 ) {
+			return 1;
+		} else {
+			return factRec(n-1) * n;
+		}
+	}
+	
+	alert(factRec(n));
+</script>
+</body>
+<footer></footer>
+</html>
