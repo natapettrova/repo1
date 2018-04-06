@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Первый опыт с библиотеками	</title>
+</head>
+<body>
+<script src="myFirstLib.js"></script>
+<script>
+/* 
+	var arr=[1,2,3,4,5,8];
+	myFirstLib.remove(arr,2);
+	console.log(arr);
+	var st;
+	st = myFirstLib.repeat('бла-',5);
+	console.log(st);
+	var arr=[{x:2,y:4},{x:5,y:7},{x:9,y:10},{y:10}];
+	arr= myFirstLib.pluck(arr,'x');
+	console.log(arr);*/
+	
+////Домашнее задание	
+	
+	var arr=[1,2,3,4,5,8];
+	
+	var res = myFirstLib.findMin(arr);
+	console.log(res);
+	
+	
+	var result = myFirstLib.findMax(arr);
+	console.log(result);
+	
+	
+	var aver = myFirstLib.average(arr);
+	console.log(aver);
+	
+			
+	var arr2=myFirstLib.clon(arr);
+	console.log(arr2);
+</script>
+</body>
+</html>
