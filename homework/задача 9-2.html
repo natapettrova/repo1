@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    div {
+      width: 100%;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div>первый</div>
+  <div>второй</div>
+  <div>последний</div>
+   <script>
+    let arrdiv = document.getElementsByTagName('div'); //onclick="pushGreen()"
+    for (let i=0;i<arrdiv.length;i++) {
+      arrdiv[i].onclick = function color () {
+        if (this.style.background == "blue") this.style.background = "white";
+        else this.style.background = "blue";
+      }
+    }
+  </script>
+</body>
+</html>
